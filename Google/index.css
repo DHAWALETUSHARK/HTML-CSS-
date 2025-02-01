@@ -1,0 +1,33 @@
+.google{
+    height: 300px;
+    width: 300px;
+    border: 100px solid;
+    border-radius: 50%;
+    border-top-color: red;
+    border-left-color: orange;
+    border-bottom-color: green ;
+    border-right-color: blue ;
+    position: relative;
+}
+
+.google::before{
+    width: 245px;
+    height: 100px;
+    background-color: blue;
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    right: -95px;
+    transform: translateY(-50%);
+}
+
+.google::after{
+    content: "";
+    z-index: 1;
+    border-top: 200px solid transparent;
+    border-right: 200px solid white;
+    position: absolute;
+    top: -100px;
+    right: -100px;
+}

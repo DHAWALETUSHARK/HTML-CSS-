@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#containar{
+    height: 500px;
+    width: 700px;
+    background-color: red;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px black;
+}
+
+.left{
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+    
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup h1{
+    font-weight: 600;
+}
+
+.signup p{
+    color: gray;
+}
+
+.left i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.left form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.left form input{
+    padding: 5px 10px;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    background-color: whitesmoke; 
+    border: none;
+}
+
+.Left form button{
+    background-color: red;
+    padding: 5px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+}
+
+#Left form a{
+    text-decoration: none;
+    color: gray;
+}
+
+.right{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right p{
+    text-align: center;
+}
+#right button{
+    background-color: red;
+    width: 150px;
+    padding: 5px;
+    border-radius:30px ;
+    color: white;
+    border: 1px solid white;
+}

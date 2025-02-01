@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 44px;
+    width: 100%px;
+    background-color: #f2f2f2;
+}
+
+.list{
+    height: 44px;
+    width: 80%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+}

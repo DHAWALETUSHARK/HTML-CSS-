@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    height: auto;
+    height: 100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box2{
+    display: flex;
+    gap: 25px;
+}
+
+.box3{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+@media screen and (max-width:800px) {
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+.sec{
+    animation: car 0.1s ease-in 0s infinite;
+}
+
+@keyframes car {
+    from{
+        background: url("./image/bg.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+    to{
+        background: url("./image/bg-light.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }  
+}
+
+.p1{
+    font-size: 50px;
+    color: white;
+    font-weight: 900;
+    padding-top: 50px;
+}
+
+.h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+.h2{
+    font-size: 50px;
+    color: #DD0707;
+    font-weight: 900;
+}
+
+.p2{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.btn1{
+    padding: 10px;
+    background: #DD0707;
+    border: 1px solid transparent;
+    width: 200px;
+    border-radius: 20px;
+    font-weight: 900;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn1:hover{
+    background: transparent;
+    border: 1px solid #DD0707;
+}
+
+@media screen and (max-width:800px) {
+    .p1{
+     font-size: 20px;
+    }
+
+    .p2{
+     font-size: 12px;
+    }
+
+    .h12,.h13{
+     font-size: 30px;
+    }
+    .sec{
+     text-align: center;
+    }
+}

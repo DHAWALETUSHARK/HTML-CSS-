@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    height: 44px;
+    width: 100%;
+    background: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width:800px;
+    gap:40px;
+}
+.list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.iphone-categories{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+.list-categories{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+    list-style: none;
+    width:65%;
+}
+.list-categories li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list-categories img{
+    height: 54px;
+}
+.list-categories h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.list-categories p{
+    font-size: 10px;
+    text-align: center;
+    color: #CF5600;
+}
+.discount-add{
+    width: 100%;
+    height: 40px;
+    background: #F5F5F5;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.discount-add p{
+    font-size: 12px;
+    
+}
+.iphone15pro-add{
+    height: 800px;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    overflow: hidden;
+}
+.iphone15pro-add img{
+    width: auto;
+    height: 252px;
+    margin: 50px;
+    margin-left: 200px ;
+}
+.new{
+    color: #CF5600;
+}
+.iphone15pro-add button{
+    padding: 7px 15px;
+    border-radius: 30px;
+    background: #0071E3;
+    color: white;
+    border: none;
+}
+.iphone15pro-add h1{
+    font-size: 40px;
+    color: #2D2C25;
+    text-shadow: 2px 2px 5px rgb(28, 27, 27);
+}
+.iphone15pro-add h3{
+    color: rgb(190, 190, 190);
+    font-size: 20px;
+}
+.iphone15pro-add a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.iphone15-add{
+    background: #FBFBFD;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    gap: 10px;
+    overflow: hidden;
+}
+.content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-block{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.image-block img{
+    height: 100%;
+}
+
+.iphone15-add-banner{
+    background: #ffffff;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    gap: 10px;
+    overflow: hidden;
+}
+.man-add-iphone{
+    color: white;
+    width: 90%;
+    background: url("https://www.apple.com/v/iphone/home/br/images/overview/subhero/guided_tour__c40f88on9o8y_large_2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.man-add-iphone button{
+    width: 140px;
+    padding: 10px;
+    border-radius:20px ;
+    border: none;
+    font-weight: 800;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 48px;
+    height: 52px;
+    width: 980px; 
+}
